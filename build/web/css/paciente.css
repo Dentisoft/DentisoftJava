@@ -1,0 +1,281 @@
+body{
+    background-color: #E5ECEB;
+    font-family: sans-serif;
+    margin: 20px 40px;
+}
+.nav1{
+        width: 100%;
+        margin-top: 20px;
+        background-color:#36C7B1; 
+    }
+    .imalog{
+           width: 200px;
+        margin-left: 80%;
+        margin-top: -40px;
+        
+    }
+    *{
+        margin:0;
+        padding: 0;
+        box-sizing:border-box;
+    }
+    .contenedor{
+        padding:60px 0;
+        width: 90%;
+        max-width: 1000px;
+        margin: auto;
+        overflow: hidden;
+       
+    }
+   
+    header{
+        width: 90%;
+        height: 800px;
+        background: #134E5E;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, hsla(134, 37%, 57%, 0.459), hsla(193, 80%, 22%,0.649 )),url(ima.jpg);
+        background: linear-gradient(to right, hsla(134, 37%, 57%, 0.459), hsla(193, 80%, 22%,0.649 )),url(ima.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background-size: cover;
+        background-attachment: fixed;
+        position: relative;
+    }
+    header .textos-header{
+        display:flex;
+        height: 430px;
+        width: 100%;
+        align-items:center;
+        margin-top: 120px;
+        justify-content:center;
+        flex-direction:column;
+        text-align: center;
+    }
+    .textos-header h1{
+        font-size: 50px;
+        color: white ;         
+    }
+    .textos-header h2{
+        font-size: 30px;
+        font-weight: 300;
+        color: white ;         
+    }
+    .wave{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        
+    }
+    .contenedor-sobre-nosotros{
+        display: flex;
+        justify-content:space-evenly;
+    }
+    .imagen-about-as{
+        width: 48%;
+    }
+    .sobre-nosotros .contenido-textos{
+        width: 48%;
+    }
+    
+    .contenido-textos h3{
+        margin-bottom: 15px;
+        
+    }
+    
+    .contenido-textos h3 span{
+        background:#A3DEC6;
+        color: white;
+        border-radius: 50%;
+        display: inline-block;
+        text-align: center;
+        width: 30px;
+        height: 30px;
+        padding: 2px;
+        box-shadow: 0 0 6px 0 rgba(0,0,0,.5);
+        margin-right: 5px;
+    }
+    
+    .contenido-textos p{
+        padding: 0px 0px 30px 15px;
+        font-weight: 300;
+        text-align: justify;
+        
+    }
+    .titulo{
+        text-align: center;
+        
+    }
+    
+    .tabla{
+        background: #f2f2f2;
+    }
+    .contenedor1{
+        padding:60px 0;
+        width: 90%;
+        max-width: 1000px;
+        margin: auto;
+        overflow: hidden;
+       
+    }
+    .tabla1{
+        background: #f2f2f2;
+        
+    }
+    .historial{
+     
+        width: 90%;
+        display: flex;
+        justify-content:space-evenly;
+        margin-top: 50px;
+        
+    
+    }
+    .historial .contenido-textos{
+        width: 48%;
+        flex-direction:column;
+        justify-content:center;
+        margin-top: 20px;
+    }
+    .imagen-historial{
+        width: 30%;
+      
+    }
+    .portafolio{
+           background-color:#f2f2f2 ;
+    }
+    .galeria-port{
+        display: flex;
+        justify-content:space-evenly;
+        flex-wrap:wrap;
+    }
+    .imagen-port{
+        width: 24%;
+        margin-bottom: 10px;
+        height: 200px;
+        overflow: hidden;
+        position: relative;
+        cursor: pointer;
+        box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+        
+           
+    }
+    .imagen-port > img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display:block;
+    }
+    
+    .hover-galeria{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        transform: scale(0);
+        background: hsla(163,4%,9%,0.7);
+        transform: transform .5s;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        flex-direction:column;
+           
+    }
+    
+    .hover-galeria img{
+        width: 50px;
+    }
+    
+    .hover-galeria p{
+        color:white;
+    }
+    
+    .imagen-port:hover .hover-galeria{
+        transform: scale(1);
+    }
+    
+     .lo{
+        
+        height: 800px;
+        background: #134E5E;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, hsla(134, 37%, 57%, 0.459), hsla(193, 80%, 22%,0.649 )),url(ulr.jpg);
+        background: linear-gradient(to right, hsla(134, 37%, 57%, 0.459), hsla(193, 80%, 22%,0.649 )),url(ulr.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background-size: cover;
+        background-attachment: fixed;
+        position: relative;
+    }
+    .contacto{
+        width: 40%;
+        margin-right: 40%;
+        border:white 3px solid;
+        margin-top:50px;
+    }
+    
+    .cont> img{
+        width: 50px;
+       
+       
+    }
+    .cont{
+         margin-top: -200px;
+        margin-left: 40%;
+    }
+    
+    a{
+        
+         color:#fff;
+        font-size:20px;
+        text-transform: uppercase;
+        
+        letter-spacing: 2px;
+    }
+    
+    a:hover{
+        font-size: 25px;
+    }
+    .carousel slide{
+        width: 25%;
+        height: 500px;
+        margin-top: -2200px;
+    }
+    
+   .facturas{
+           background-color:#f2f2f2 ;
+           margin-top: 50px;
+    }
+    #mainbox{
+        font-size:24px;
+        cursor: pointer;
+        transition: all .6s;
+        margin-top: 25px;
+        margin-left: 20px;
+        
+    }
+    .sidemenu{
+        position: fixed;
+        top:0px;
+        left: 0px;
+        height: 72%;
+        width: 0px;
+        background-color: white;
+        z-index: 1;
+        padding-top: 100px;
+        overflow-x:hidden; 
+        transition: all .5s;
+    }
+    
+    .sidemenu a{
+        padding: 8px 8px 8px 64px;
+        text-decoration: none;
+        font-size: 20px;
+        color: #999; 
+        display: block;
+    }
+    .sidemenu a:hover{
+        color: black;
+    }
+    
+    .sidemenu .closebtn{
+        position: absolute;
+        top:0px;
+        right: 25px;
+        font-size:36px;
+        margin-left: 32px;
+        width: 40px;
+    }

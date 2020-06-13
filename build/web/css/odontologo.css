@@ -1,0 +1,150 @@
+nav{
+    background-color: transparent;
+}
+    
+    
+  
+    .sidemenu a:hover{
+        color: black;
+    }
+    
+   
+    .imalog{
+           width: 200px;
+        margin-left: 80%;
+      
+        
+    }
+    body{
+    background-image: url(odonfon.jpg); repeat:no-repeat ;
+    font-family: sans-serif;
+    margin: 20px 40px;
+    }
+    
+        a{
+        
+         color:white;
+        font-size:20px;
+        text-transform: uppercase;
+        
+        letter-spacing: 2px;
+    }
+    
+    a:hover{
+        font-size: 25px;
+    }
+    
+   .root{
+   
+     padding: 0 15px;
+     display: flex;
+    margin-top: 40px;
+    margin-left: 4%;
+    display: flex;
+        
+    }
+    .calendar{
+        padding: 20px 10px;
+        background:white;
+        border-radius: 3px;
+        width: 26%;
+      
+        height: 350px;
+        font-family: sans-serif;
+    }
+    
+    .calendar__header {
+        color: black;
+        display: flex;
+        justify-content: space-between;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+    }
+    
+    .calendar .control {
+        color:black;
+        font-weight: bold;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        padding: 0 5px;
+        
+    }
+    
+    .grid__header, .grid__body{
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+    }
+    
+    .grid__header{
+        color:black;
+        margin-bottom: 20px;
+    }
+    
+    .grid__body{
+        grid-auto-rows: 40px;
+    }
+    
+    .grid__cell{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .grid__cell--gd{
+        cursor: pointer;
+    }
+    .grid__cell--selected{
+        color:white;
+        background-color: black;
+        border-radius: 50%;
+        border:2px solid black;
+        box-shadow: 0 0 0 2px white inset;
+    }
+    .grid__cell--disabled{
+       color:#E3E7ED ;
+       cursor: not-allowed;
+    }
+    
+    .contenedor-sobre-nosotros{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .sobre-nosotros .contenido-textos{
+        width: 60%;
+         margin-top:100px;
+        
+    }
+    
+    .contenido-textos{
+      background-color: white;
+       border:white 3px solid;
+      
+    }
+    .imagen-about-as{
+        width: 25%;
+         border:white 3px solid;
+         margin-top:100px;
+    }
+    .rounded-circle{
+        display: flex;
+        width: 150px;
+        height: 130px;
+    }
+   
+    .form{
+        width: 100%;
+    }
+    
+    .contenido-textos .dientesDiv{
+        width: 100%;
+    }
+    
+    .contenedor-dos{
+        width:60%;
+        background-color: white;
+         border:white 3px solid;
+         margin-left: 35%;
+        margin-top: -340px;
+   
+    }

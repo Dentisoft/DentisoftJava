@@ -1,0 +1,142 @@
+
+body{
+    background-color: #E5ECEB;
+    font-family: sans-serif;
+    margin: 20px 40px;
+}
+#mainbox{
+    font-size:24px;
+    cursor:pointer;
+    transition: all .6s;
+    margin-top: 50px;
+    margin-left: 20px;
+    color:white;
+    font-size: 25px;
+   
+}
+.sidemenu{
+    position: fixed;
+    margin-top: -350px;
+    left: 2%;
+    height: 70%;
+    width: 0px;
+    background-color:transparent;
+   
+    z-index:1;
+    padding-top:100px;
+    overflow-x:hidden;    
+    transition:all .5s;
+}
+.sidemenu a{
+    padding:8px 8px 8px 80px;
+    text-decoration: none;
+    font-size:20px;
+    color:black;
+    display: block;
+}
+.sidemenu a:hover{
+    color:white;
+}
+.sidemenu .closebtn{
+        position: absolute;
+        top:0px;
+        right:25px;
+        font-size: 40px;
+        margin-left: 32px;
+    }  
+    img{
+       width: 30px;
+    }
+ .sidemenu  #login{
+       
+    padding:80px 80px 80px 90px;
+    text-decoration: none;
+    font-size:20px;
+    color:#999;
+    display: block;
+    }
+    
+    .navbar-light .navbar-brand{
+        color:#fff;
+        font-size:25px;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 2px;
+    }
+    
+ 
+    
+    
+.header .navbar {
+  background-color: transparent !important;
+}
+
+.carru{
+    width: 90%;
+    height: 90%;
+    margin-left: 5%;
+}
+.imalog{
+        margin-top: 20px;
+        width: 200px;
+        margin-left: 10px;
+    }
+    #login{
+        color:black;
+    }
+    #login:hover{
+        color: white;
+    }
+    
+    .mens{
+        margin-left: 60%;
+    }
+    
+    
+    header{
+        widht:100%;
+        height: 600px;
+        background:#43c6ac;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right,hsla(168, 66%, 52%, 0.459),hsla(243, 74%, 21%, 0.664))url('1144.jpg');  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right,hsla(168, 66%, 52%, 0.459), hsla(243, 74%, 21%, 0.664)),url('1144.jpg'); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ background-size:  cover;
+ background-attachment: fixed;
+ position:relative;
+    }
+   
+    header .textos-header{
+        display:flex;
+        height: 430px;
+        margin-top: 400px;;
+        width: 100%;
+        margin-left: -70px;
+        align-items: right;
+        justify-content: center;
+        flex-direction:column;
+        text-align: right;
+    }
+    
+    .textos-header h1{
+        font-size: 50px;
+        color:#ffffff;
+        
+    }
+    
+     .textos-header h2{
+        font-size: 30px;
+        font-weight: 300;
+        color:#ffffff;
+        
+    }
+    .wave{
+       position:absolute;
+       bottom:0;
+       width: 100%;
+       
+    }
+    
+    a{
+        font-size: 18px;
+    
+        letter-spacing: 2px;
+    }
